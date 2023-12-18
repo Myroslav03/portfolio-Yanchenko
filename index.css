@@ -1,0 +1,159 @@
+body{
+    background: url(img/background.png);
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*Header*/
+
+.header{
+    padding-top: 42px;
+    padding-bottom: 42px;
+
+    border-bottom: 1px solid transparent;
+    border-image: radial-gradient(circle, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 51%, rgba(254,133,134,0) 100%);
+    border-image-slice: 1;
+}
+
+.header_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav_link{
+    margin-left: 100px;
+    color:#fff;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity 0.2s linear;
+}
+
+.nav_link:first-child{
+    margin-left: 0px;
+}
+
+.nav_link:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/*Text*/
+.text{
+    margin-left: 22px;
+}
+.first_text{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 35px;
+}
+.secon_text{
+    font-size: 80px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+#third_text{
+    margin-top: 40px;
+    white-space: nowrap;
+}
+#firstName{
+    font-size: 65px;
+    font-weight: 300;
+}
+#lastName{
+    font-size: 65px;
+    font-weight: 500;
+}
+.fourth_text{
+    margin-top: 25px;
+    font-size: 60px;
+    font-weight: 200;
+}
+.fifth_text{
+    margin-top: 25px;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+/*Button*/
+
+.button-container {
+    display: flex;
+    align-items: center;
+    padding-top: 22px;
+}
+.buttoncenter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 300;
+    color: #FFF;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+/*Photo*/
+
+  
+  .photo {
+    width: 652.07px;
+    height: 637.4px;
+    position: absolute;
+    top: 19%;
+    left: 55%;
+    object-fit: cover;
+  }
+
+  /* Copyright
+===================*/
+
+.copyright {
+    padding: 55px 0;
+}
+
+.copyright__text {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #808080;
+}
+
+.copyright__text span {
+    color: #fff;
+}
